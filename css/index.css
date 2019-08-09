@@ -274,3 +274,44 @@ section img {
     width: 100%;
     margin-bottom: 10px;
 }
+
+
+/* style for contact form */
+
+.contact-form {
+    width: 80%;
+    margin: 20px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid whitesmoke;
+    padding: 30px;
+
+}
+
+.contact-form input {
+    height: 40px;
+}
+
+.contact-form select {
+    height: 30px;
+}
+
+#submit-button {
+    height: 40px;
+    background-color: lightslategray;
+    transition: 0.2s ease out;
+    
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.1s ease-in;
+    background-color: red;
+}
+
+.contact-main-text h1 {
+    font-size: 30px;
+    text-align: center;
+}
