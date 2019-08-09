@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: baseline;
+
+    margin: 30px 0;
+}
+
+.page-navigation {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-logo {
+    width: 20%;
+}
+
+.banner-image {
+    width: 100%;
+    margin-bottom: 30px;
+}
