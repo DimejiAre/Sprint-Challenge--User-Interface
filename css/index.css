@@ -226,12 +226,19 @@ header a:hover {
     background-color: dodgerblue;
 }
 
+/* Styling for about.html page */
+
 .about-banner-text {
-    padding: 0px 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px dashed black;
-    margin-bottom: 25px;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
+
+.about-page hr {
+    border: 0.5px dashed black;
+    margin-bottom: 30px;
+}
+
 
 .about-main-text {
     display:flex;
@@ -253,7 +260,7 @@ section button {
     border-radius: 9px;
     height: 30px;
     width: 120px;
-    margin: 15px 0;
+    margin: 20px 0;
     font-size: 13px;
 }
 
